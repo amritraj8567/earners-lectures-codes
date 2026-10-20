@@ -1,0 +1,54 @@
+h1 {
+    /* background-color: aqua; */
+    font-size: 100px;
+}
+
+#wrapper {
+    /* background:  linear-gradient(to right , red,blue); */
+    /* background:  linear-gradient(45deg, red,blue,yellow,pink); */
+
+    /* background: radial-gradient(circle, red, green); */
+
+    /* background: conic-gradient(red,blue); */
+
+    /* background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=);
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-size: cover;
+
+    border: 1px solid black; */
+
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: red;
+
+    border: 2px solid navy; */
+
+    /* border-top: 2px solid black;*/
+
+    /* border-radius: 10px;
+    border-top-left-radius: 0px; */
+
+    border: 10px solid black;
+    padding: 100px;
+
+    margin: 40px;
+
+    height: 500px;
+}
+
+p{
+    /* padding: 30px; */
+
+    /* padding-left: 30px */
+
+    /* padding: top right bottom left;*/
+
+    border: 5px solid black;
+
+    padding: 40px 40px 40px 40px;
+
+    
+}

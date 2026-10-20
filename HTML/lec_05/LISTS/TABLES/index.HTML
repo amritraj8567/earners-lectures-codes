@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        td,
+        th,
+        tfoot {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>table</h1>
+
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+
+        <!-- STUDENT SCORE -->
+
+        <h2>STUDENT SCORE</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>subject/student</th>
+                    <th>maths</th>
+                    <th>hindi</th>
+                    <th>english</th>
+                    <th>science</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Anu</td>
+                    <td>50</td>
+                    <td>70</td>
+                    <td>90</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>Sumit</td>
+                    <td>54</td>
+                    <td>69</td>
+                    <td>67</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>Ram</td>
+                    <td>54</td>
+                    <td>24</td>
+                    <td>89</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>Amrit</td>
+                    <td>76</td>
+                    <td>52</td>
+                    <td>79</td>
+                    <td>99</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td>Total</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tfoot>
+
+            <caption>STUDENT SCORE</caption>
+        </table>
+
+        <!-- exercise -->
+        <h2>rowspan and colspan</h2>
+
+        <table>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                
+                <th rowspan="2">red eyes</th>
+                
+            </tr>
+            <tr>
+                
+                <th>Height</th>
+                <th>Weight</th>
+                
+                
+            </tr>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+                
+            </tr>
+            <tr>
+                <td>females</td>
+                <td>1.9</td>
+                <td>0.002</td>
+                <td>43%</td>
+
+                <caption>a test table with merge cells</caption>
+                
+            </tr>
+            
+        </table>
+
+    </div>
+
+
+</body>
+
+</html>
